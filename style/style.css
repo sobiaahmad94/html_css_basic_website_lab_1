@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    padding: 24px;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 16px;
+}
+
+nav>ul {
+    list-style: none;
+    font-weight: 700;
+}
+
+nav>ul>li>a {
+    color: white;
+}
+
+.img-orange {
+    width: 25%;
+    height: auto;
+}
+
+h2, h3, h4, h5 {
+    padding: 0px 0px 16px 0px;;
+}
+
+p {
+    padding: 0px 0px 16px 0px;;
+}
+
+section {
+    padding: 12px 12px 12px 0px;
+}
+
+.with-margin {
+    width: 70%;
+    margin: auto;
+}
+
+body>footer {
+    background-color: dodgerblue;
+}
+
+body>footer>p {
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    padding: 12px 0px 20px 0px;
+}
+
+.comments-button{
+    position: absolute;
+    transform: translateX(986%);
+}
