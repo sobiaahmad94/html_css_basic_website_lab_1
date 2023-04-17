@@ -28,12 +28,17 @@ nav>ul>li>a {
     height: auto;
 }
 
-h2, h3, h4, h5 {
-    padding: 0px 0px 16px 0px;;
+h2,
+h3,
+h4,
+h5 {
+    padding: 0px 0px 16px 0px;
+    ;
 }
 
 p {
-    padding: 0px 0px 16px 0px;;
+    padding: 0px 0px 16px 0px;
+    ;
 }
 
 section {
@@ -59,7 +64,11 @@ img {
     padding: 12px 0px 20px 0px;
 }
 
-.comments-button{
-    position: absolute;
-    transform: translateX(986%);
+.comments-button {
+    position: relative;
+    float: right;
+}
+
+textarea {
+    width: 100%;
 }
