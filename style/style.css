@@ -64,11 +64,31 @@ img {
     padding: 12px 0px 20px 0px;
 }
 
-.comments-button {
+/* .comments-button {
     position: relative;
     float: right;
 }
 
 textarea {
     width: 100%;
+} */
+
+/* button alignment using flexbox is below: */
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-container textarea {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comments-button {
+    margin-left: 10px;
 }
